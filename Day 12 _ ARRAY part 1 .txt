@@ -1,0 +1,80 @@
+﻿DAY 12 ASSIGNMENT DONE
+
+
+1)What do you mean by an Array?
+ANS:
+ It refers to index collection of fixed no of homogeneous data elements.It is an important concept in java,where you store multiple values.
+
+
+2)How to create an Array?
+ANS:
+
+
+To create an array, define the data type(like int) and specify the name of the array followed by square brackets[].To insert values to it, use a comma-separated list, inside curly braces: int myNumbers[] = {25, 50, 75, 100}; We have now created a variable that holds an array of four integers.
+
+
+3)Can we change the size of an array at run time?
+ANS:
+
+
+You can't change the size of the array after it's constructed.
+
+
+4)Can you declare an array without assigning the size of an array?
+ANS:
+Yes. We can declare an array without size but before using it needs to be initialised.
+
+
+5)What is the default value of the array?
+ ANS: 0
+
+
+6)What is a 1D array with an example?
+ANS:
+ Which arrays have one row and multiple columns is called 1D array.
+Ex:
+public class main
+{
+public static void main(String[]args)
+{
+          Int nums[]={2,3,4,5};
+        System.out.println(nums[0]);
+        System.out.println(nums[1]);
+        System.out.println(nums[2]);
+        System.out.println(nums[3]);
+}
+}
+
+
+7)Write a program on a 2D array?
+ANS:
+Public class Array2 {
+    public static void main(String[] args) 
+    {
+      int nums [] []= new int [3] [2];
+      nums[0][0] = 5;
+      nums[0][1] = 2;
+      nums[1][0] = 8;
+      nums[1][1] = 2;
+      nums[2][0] = 9;
+      nums[2][1] = 5;
+
+
+       
+      for(int i=0;i<=2; i++)
+      {
+        for(int j=0;j<=1;j++)
+        {
+            System.out.print(nums[i] [j] + " ");
+
+
+            
+        }
+        System.out.println();
+        
+      }
+
+
+    }
+    
+}

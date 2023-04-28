@@ -1,0 +1,42 @@
+﻿DAY 14 ASSIGNMENT DONE
+
+
+1)What is String in Java?
+Ans: 
+String refers to the collection of characters which are enclosed within double quotes,String refers to an object in java present in a package called java.lang.String.
+String refers to a collection of characters.
+
+
+2)Types of String in java are?
+ANS:
+There are two types of Strings- a) Mutable String,
+                                                 b) Immutable String.
+
+
+3)In How many ways can you create String objects in java?
+ANS:
+There are two ways you create String objects-
+One is : using double quotes,
+ Ex- String brand= “PwSkills”;
+Another is : use New Keyword,
+Ex-String brand1 =new String(“PwSkills”).
+
+
+4)What is a String  Constant Pool?
+ANS:
+SCP represents a special heap memory part which is used to store string constants or string literals.VM checks the string constant pool every time whenever a string literal is created. JVM will create a new object if string literal is not present in the string pool but no new object will be created in the pool if string literal is already present in the pool, a reference of the already existing object will be returned.
+
+
+5)What do you mean by mutable & immutable objects?
+ANS:
+Mutable Objects: Mutable Objects whose value be changeable  once before  it is created.
+
+
+Immutable Objects: Immutable objects such objects whose value can't be changed once it is created, if you attempt the new object created.
+
+
+
+
+6)Where exactly is the SCP located in the memory?
+ANS:    
+inside the HEAP memory.
