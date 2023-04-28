@@ -1,0 +1,37 @@
+﻿DAY 6 ASSIGNMENT DONE
+
+
+
+
+1.What is programming language?
+ ANS:
+A programming language is a type of written language that tells computers what to do. Examples are: Python, Ruby, Java, JavaScript.
+2.Why do we need a programming language?
+ANS:
+ The major need for the programming language is to communicate with the computers and also the programming languages are used to develop an application for performing a specific task, automating things, etc.
+
+
+3.What are the features of java ?
+ANS: 
+The features are -
+It is SIMPLE, OBJECT ORIENTED, PORTABLE, ROBUST, DISTRIBUTED, MILTI THREADED
+And also PLATFORM INDEPENDENT.
+4.What is an Object?
+ANS:
+
+
+An object is an entity with state and behaviour, such as a chair, bike, marker, pen, table, or car. It could be intellectual or physical (tangible and intangible). The banking system is an illustration of an intangible entity.
+
+
+5.What is a Class?
+ANS:
+A class is a collection of items with similar characteristics. It serves as a model or blueprint from which things can be made. It makes sense as a whole. It cannot be bodily.
+
+
+6.Explain about the main() method in java?
+ANS:
+
+
+
+
+The main () is the starting point for JVM to start execution of a Java program. Without the main () method, JVM will not execute the program. The syntax of the main () method is: public: It is an access specifier. We should use a public keyword before the main () method so that JVM can identify the execution point of the program.

@@ -1,0 +1,97 @@
+﻿DAY 7 ASSIGNMENT DONE
+
+
+1. What is statically typed and Dynamically typed Programming Language?
+ANS:
+Where you have to define the type of data even before you compile the file such types of programming languages are called STATICALLY TYPED.
+
+
+Where you don’t have to define the type of data even before you compile but automatically recognize what type of data at the time of execution such types of programming languages are called DYNAMICALLY TYPED.
+
+
+
+
+2. What is the variable in Java? 
+ ANS: Variable is the name of the memory location which stores some data.
+
+
+3. How To Assign a Value To Variable?
+ANS:
+type variableName = value; Where type is one of Java's types (such as int or String ), and variableName is the name of the variable (such as x or name). The equal sign is used to assign values to the variable.
+
+
+
+
+4. What are Primitive Data types in Java?
+ANS:The Primitive Data types in Java are boolean,char,short,int,long,float and double.
+
+
+5. What are the Identifiers in Java?
+ANS: 
+Identifiers in Java are names that distinguish between different Java entities, such as classes, methods, variables, and packages. 
+
+
+ 6. List the Operators in Java?
+ANS:
+Operators in java are:
+!) Arithmetic OPerators
+2) Relational Operators
+3)Logical Operators
+4) Assignment Operators
+5) Unary Operators
+6) Bitwise Operators
+
+
+ 7. Explain about Increment and Decrement operators and give an examples
+ANS:
+1)preincrement(++a)
+2) postincrement(a++)
+3) predecrement(--a)
+4) postdecrement(a--)
+
+
+EXAMPLE:
+
+
+class Main {
+
+
+ public static void main(String[] args) {
+
+
+ int a = 20, int b = 30;
+
+
+ int c = a++;//post increment
+ int d = ++a;//pre increment
+
+
+ int e = B--;//post decrement
+
+
+ int f = - - b;// pre decrement
+
+
+ System.out.println(c);
+
+
+ System.out.println(d);
+
+
+ System.out.println(e);
+
+
+ System.out.println(f);
+
+
+ }
+
+
+ }
+
+
+Output:
+20
+22
+30
+28

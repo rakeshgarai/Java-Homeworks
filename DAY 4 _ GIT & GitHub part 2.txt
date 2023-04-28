@@ -1,0 +1,52 @@
+﻿DAY 4 ASSIGNMENT DONE
+
+
+
+
+1)How to check if git is available on your system?
+ANS:
+You can check whether Git is installed and what version you are using by opening up a terminal window in Linux or Mac, or a command prompt window in Windows, and typing the following command: git --version
+
+
+2)How to initialize a new Git repository?
+ANS:
+You can initialize a new Git repository using the git init command.
+
+
+
+
+3)How to tell you about your name and email?
+ANS:
+The username:- git config --global user.name.
+The email. git config --global user.email.
+Using those commands we are told about our name and email to git.
+
+
+4)How to add a file to the staging area?
+ANS:
+Add files to the staging area by using the "git add" command.
+
+
+5)How to remove a file from the staging area?
+ANS:
+
+
+To remove a file from the staging area, go to the Git desired directory, create and stage a new text file. Then, view the repository's current status. After that, execute the
+ “ git rm –cached <file-name>” command to remove the particular file. Lastly, ensure the deleted file by checking the status.
+
+
+6)How to make a commit?
+ANS:
+ “git commit -m" Using this key command we make a commit.
+
+
+7)How to send your changes to a remote repository?
+ANS:
+To push the commit from the local repo to your remote repositories, run 
+git push -u remote-name branch-name where remote-name is the nickname the local repo uses for the remote repositories and branch-name is the name of the branch to push to the repository.
+
+
+8)What is the difference between clone and pull?
+ANS:
+git clone is how you get a local copy of an existing repository to work on.
+And git pull (or git fetch + git merge ) is how you update that local copy with new commits from the remote repository.

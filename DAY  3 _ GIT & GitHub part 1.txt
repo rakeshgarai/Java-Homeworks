@@ -1,0 +1,56 @@
+﻿DAY 3 ASSIGNMENT DONE
+
+
+1)What is GIT?
+ANS:
+Git is a distributed version control system that tracks changes in any set of computer files, usually used for coordinating work among programmers collaboratively developing source code during software development. Its goals include speed, data integrity, and support.
+
+
+2)what do you understand by the term version control system
+ANS:
+Version control systems are software tools that help software teams manage changes to source code over time. As development environments have accelerated, version control systems help software teams work faster and smarter.
+
+
+3)What is GitHub?
+ANS:
+GitHub is a Git repository hosting service. GitHub also facilitates many of its features, such as access control and collaboration. It provides a Web-based graphical interface.
+
+
+GitHub is an American company. It hosts source code of your project in the form of different programming languages and keeps track of the various changes made by programmers.
+
+
+It offers both distributed version control and source code management (SCM) functionality of Git. It also facilitates some collaboration features such as bug tracking, feature requests, task management for every project.
+
+
+4)Mention some git hosting services?
+ANS:
+GitHub
+GitLab
+Perforce
+Beanstalk
+Amazon AWS CodeCommit
+Codebase
+Microsoft Azure DevOps
+SourceForge
+Gerrit
+
+
+5)Different types of version control systems?
+ANS:
+There are two types of version control: centralised and distributed.
+
+
+6)What benefits come with git?
+ANS:
+One of the biggest advantages of Git is its branching capabilities. Unlike centralised version control systems, Git branches are cheap and easy to merge. This facilitates the feature branch workflow popular with many Git users. Feature branches provide an isolated environment for every change to your codebase.
+
+
+
+
+7)What is a git repository?
+ANS:
+A git repository contains all of your project's files and each file's revision history. You can discuss and manage your project's work within the repository.
+ 
+8)how can you initialise a repository in git
+ANS:
+To create a new repo, you'll use the git init command. git init is a one-time command you use during the initial setup of a new repo. Executing this command will create a new .git subdirectory in your current working directory. This will also create a new main branch.

@@ -1,0 +1,40 @@
+﻿DAY 2 ASSIGNMENT DONE
+
+
+
+
+
+
+1)What is computer?
+Ans:
+ A computer is an electronic device  that accepts information  and processes it in accordance with a programme, piece of software, or set of  instructions that specify how the information should be handled,often in  binary form.
+
+
+2) What is RAM?
+Ans: 
+RAM stands for RANDOM ACCESS MEMORY, it is volatile.This means that information is kept in RAM while the computer is running, but it is erased when the machine is powered off. The operating system and other files are frequently loaded from an HDD or SSD into RAM when the computer is restarted.
+
+
+3) Where is the data store in a computer?
+Ans: HDD Or SSD
+
+
+4)What is that input device used to type text and numbers on a document in the computer system?
+Ans: The Keyboard
+
+
+5) What are the output devices?
+Ans:
+Monitor Printer Speaker Plotte
+
+
+6)Which is the input device that allows a user to move the cursor or pointer on the screen?
+Ans:Mouse
+
+
+7)Which language is directly understood by the computer without a translation program?
+Ans: Machine Language
+
+
+8)What are input devices?
+Ans: Keyboard, Mouse, Scanner, Joystick

@@ -1,0 +1,24 @@
+﻿DAY 10 ASSIGNMENT DONE
+
+
+1)How to create an object in java?
+ANS:
+In Java, we cannot execute any program without creating an object. There are various ways to create an object in Java that we will discuss in this section, and also learn how to create an object in Java. 
+Java provides five ways to create an object.Using a new Keyword.
+
+
+2)What is the use of a new keyword in java?
+ANS:
+The new keyword in Java is used to create an instance of a class, also known as an object.
+3)What are the different types of variables in java?
+ANS:There are three types of variables in java: local, instance and static. 
+4)What is the difference between instance variable & local variable?
+ANS:
+Instance Variable: These variables are declared within a class but outside a method, constructor, or block and always get a default value.
+Local Variable: These variables are declared within a method but do not get any default value.
+5)In which area memory is allocated for instance variable & lacal variable?
+ANS:
+Stack is a memory place where the methods and the local variables are stored.  Heap is a memory place where the objects and its instance variable are stored.
+6)What is method overloading?
+ANS:
+We can say that Method overloading is a concept of Java in which we can create multiple methods of the same name in the same class, and all methods work in different ways. When more than one method of the same name is created in a Class, this type of method is called the Overloaded Method.
