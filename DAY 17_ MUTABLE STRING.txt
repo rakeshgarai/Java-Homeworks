@@ -1,0 +1,111 @@
+﻿DAY 17 ASSIGNMENT DONE
+
+
+
+
+1. What is Mutable String in Java Explain with an example.
+ANS:
+Mutable strings are those strings whose content can be changed without creating a new object. StringBuffer and StringBuilder are mutable versions of String in java.
+EX:
+public class MutableString
+{
+   public static void main(String[] args)
+   {
+       StringBuffer s=new StringBuffer("Rakesh"+ " ");
+       System.out.println(s);
+       s.append("Garai");
+       System.out.println(s);
+   }
+}
+
+
+OUTPUT
+Rakesh
+Rakesh Garai
+
+
+
+
+
+
+2. WAP to reverse a String Input: "PWSKILLS"
+Output: "SLLIKSPW"
+ANS:
+public class ReverseString
+{
+   public static void main(String[] args)
+   {
+    String str1="PWSKILLS";
+    String str2= "";
+
+
+    for(int i=str1.length()-1;i>=0;i--)
+    {
+        str2=str2 + str1.charAt(i);
+    }
+       System.out.println("Before Reversing:"+str1);
+       System.out.println("After Reversing: "+str2);
+   }
+}
+
+
+Output
+SLLIKSPW
+
+
+
+
+
+
+3. WAP to reverse a sentence while preserving the position Input: Think Twice
+
+
+Output: "kniht eciwt" 
+ANS:
+public class ReverseString3
+{
+   public static void main(String[] args)
+   {
+       String str1= "Think Twice";
+       String str2="";
+       String arr[]=str1.split(" ");
+
+
+       for (String elem : arr) {
+
+
+           for (int i = elem.length() - 1; i >= 0; i--)
+           {
+               str2 = str2 + elem.charAt(i);
+           }
+          str2=str2+" ";
+       }
+       System.out.println("Before Reversing:" + str1);
+       System.out.println("After Reversing: " + str2);
+   }
+}
+
+
+Output
+kniht eciwt
+
+
+
+
+4. WAP to sort a String Alphabetically
+ANS:
+import java.util.Scanner;
+public class ShortingAlphabetically {
+   public static void main(String args[])
+   {
+       Scanner sc = new Scanner(System.in);
+       System.out.println("Enter a string value: ");
+       String str = sc.nextLine();
+       char charArray[] = str.toCharArray();
+       Arrays.sort(charArray);
+       System.out.println(new String(charArray));
+  }
+}
+ Output
+Rakesh Garai
+GRaaaehikrs
