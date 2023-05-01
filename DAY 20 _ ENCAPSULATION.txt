@@ -1,0 +1,162 @@
+﻿DAY 20 ASSIGNMENT DONE
+
+
+1. What is Encapsulation in Java? Why is it called Data hiding?
+ANS:
+Encapsulation in Java refers to integrating data (variables) and code (methods) into a single unit.
+
+
+In encapsulation, the variables of a class will be hidden from other classes, and can be accessed only through the methods of their current class. Therefore, it is also known as data hiding.
+
+
+2. What are the important features of Encapsulation? 
+ANS:
+* A class can have complete control over its data members and data methods.
+* The class will maintain its data members and methods as read-only.
+* Data hiding prevents the user from the complex implementations in the code.
+* Encapsulation in Java provides an option of code-reusability.
+* Using encapsulation will help in making changes to an existing code quickly.
+
+
+
+
+3. What are getter and setter methods in Java Explain with an example
+ANS:
+Getters and setters are used to protect your data, particularly when creating classes. For each instance variable, a getter method returns its value while a setter method sets or updates its value. Given this, getters and setters are also known as accessors and mutators, respectively
+
+
+EX:
+
+
+class Vehicle {
+   private String colour;
+// Getter
+   public String getColor() {
+       return colour;
+   }
+   // Setter
+   public void setColor(String c) {
+       this.color = c;
+   }
+}
+   public class GetAndSet
+  {
+      public static void main(String[]args)
+      {
+       Vehicle v1=new Vehicle();
+       v1.setColor("Red");
+       System.out.println(v1.getColor());
+       }
+  }
+// Outputs "Red"
+
+
+
+
+4. What is the use of this keyword explain with an example
+ANS:
+The most common use of this keyword is to eliminate the confusion between class attributes and parameters with the same name (because a class attribute is shadowed by a method or constructor parameter).
+
+
+Ex:
+class Student4
+{
+   private  int age;
+   private String name;
+
+
+   public void setData3(int age)
+   {
+       this.age=age;
+
+
+   }
+   public void setData4(String name)
+   {
+       this.name =name;
+   }
+   public void show()
+   {
+       System.out.println(name + " "+age);
+   }
+}
+public class ThisKeyword
+{
+   public static void main(String[] args)
+   {
+       Student4 obj=new Student4();
+       Student4 obj1=new Student4();
+       obj.setData3(21);
+       obj1.setData3(21);
+       obj.setData4("Rakesh");
+       obj1.setData4("Garai");
+       obj.show();
+       obj1.show();
+
+
+ }
+}
+
+
+5. What is the advantage of Encapsulation? 
+ANS:
+Encapsulation protects an object from unwanted access by clients. Encapsulation allows access to a level without revealing the complex details below that level. It reduces human errors.
+
+
+* A class can have complete control over its data members and data methods.
+* The class will maintain its data members and methods as read-only.
+* Data hiding prevents the user from the complex implementations in the code.
+
+
+6. How to achieve encapsulation in Java? Give an example
+ANS:
+We can create a fully encapsulated class in Java by making all the data members of the class private. Now we can use setter and getter methods to set and get the data in it.
+
+
+Ex:
+class Account {
+   private long acc_no;
+   private String name,email;
+   private float amount;
+
+
+   public long getAcc_no() {
+       return acc_no;
+   }
+   public void setAcc_no(long acc_no) {
+       this.acc_no = acc_no;
+   }
+   public String getName() {
+       return name;
+   }
+   public void setName(String name) {
+       this.name = name;
+   }
+   public String getEmail() {
+       return email;
+   }
+   public void setEmail(String email) {
+       this.email = email;
+   }
+   public float getAmount() {
+       return amount;
+   }
+   public void setAmount(float amount) {
+       this.amount = amount;
+   }
+
+
+}
+public class SetAndGet
+{
+   public static void main(String[] args)
+   {
+       Account acc=new Account();
+       //setting values through setter methods 
+       acc.setAcc_no(7560504000L);
+       acc.setName("Rakesh Garai");
+       acc.setEmail("irakeshgarai@gmail.com");
+       acc.setAmount(500000f);
+       System.out.println(acc.getAcc_no()+" "+acc.getName()+" "+acc.getEmail()+" "+acc.getAmount());
+   }
+}
